@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-19T12:00:40 IST" name="Suite" finished-at="2022-02-19T12:02:32 IST" duration-ms="112707">
+    <groups>
+    </groups>
+    <test started-at="2022-02-19T12:00:40 IST" name="Test" finished-at="2022-02-19T12:02:32 IST" duration-ms="112707">
+      <class name="TestCases.RegisterTest">
+        <test-method signature="registerpatientdetails()[pri:0, instance:TestCases.RegisterTest@6d60fe40]" started-at="2022-02-19T12:01:17 IST" name="registerpatientdetails" finished-at="2022-02-19T12:02:03 IST" duration-ms="45885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerpatientdetails -->
+      </class> <!-- TestCases.RegisterTest -->
+      <class name="TestCases.HomePageTest">
+        <test-method signature="validateRegistrationOfPatient()[pri:0, instance:TestCases.HomePageTest@43df23d3]" started-at="2022-02-19T12:01:11 IST" name="validateRegistrationOfPatient" finished-at="2022-02-19T12:01:17 IST" duration-ms="5957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationOfPatient -->
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.LoginPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.LoginPageTest@7a35b0f5]" started-at="2022-02-19T12:00:40 IST" name="launchBrowser" finished-at="2022-02-19T12:00:53 IST" duration-ms="13179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateLoginPage()[pri:1, instance:TestCases.LoginPageTest@7a35b0f5]" started-at="2022-02-19T12:00:53 IST" name="validateLoginPage" finished-at="2022-02-19T12:00:59 IST" duration-ms="6250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.LoginPageTest@7a35b0f5]" started-at="2022-02-19T12:00:59 IST" name="launchBrowser" finished-at="2022-02-19T12:01:09 IST" duration-ms="10394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidvalidateLoginPage()[pri:2, instance:TestCases.LoginPageTest@7a35b0f5]" started-at="2022-02-19T12:01:09 IST" name="invalidvalidateLoginPage" finished-at="2022-02-19T12:01:11 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidvalidateLoginPage -->
+      </class> <!-- TestCases.LoginPageTest -->
+      <class name="TestCases.CaptureVitalsTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCases.CaptureVitalsTest@792b749c]" started-at="2022-02-19T12:02:03 IST" name="beforeTest" finished-at="2022-02-19T12:02:20 IST" duration-ms="16836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="validateLogin()[pri:0, instance:TestCases.CaptureVitalsTest@792b749c]" started-at="2022-02-19T12:02:20 IST" name="validateLogin" finished-at="2022-02-19T12:02:32 IST" duration-ms="12412" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='1002KL']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'INBL01LAP7208', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\VASANT~1.GAN\AppData\Local\Temp\scoped_dir26496_1188826467}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61438}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=98.0.4758.102, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 41f1f59834f2f969258975582e8ae8ab
+*** Element info: {Using=xpath, value=//span[normalize-space()='1002KL']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='1002KL']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'INBL01LAP7208', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\VASANT~1.GAN\AppData\Local\Temp\scoped_dir26496_1188826467}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61438}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=98.0.4758.102, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 41f1f59834f2f969258975582e8ae8ab
+*** Element info: {Using=xpath, value=//span[normalize-space()='1002KL']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+at PageLayer.CaptureVitalsPage.capture1(CaptureVitalsPage.java:30)
+at TestCases.CaptureVitalsTest.validateLogin(CaptureVitalsTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestCases.CaptureVitalsTest@792b749c]" started-at="2022-02-19T12:02:32 IST" name="afterTest" finished-at="2022-02-19T12:02:32 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCases.CaptureVitalsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
